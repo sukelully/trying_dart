@@ -1,5 +1,5 @@
-import 'package:trying_dart/a_01.dart' as input;
+import 'package:trying_dart/_02.dart' as test;
 
 void main(List<String> arguments) {
-  print(input.yearsTill100());
+  print(test.evenOrOdd(3));
 }
