@@ -1,5 +1,6 @@
-import 'package:trying_dart/_09.dart' as test;
+import 'package:trying_dart/_10.dart' as test;
 
 void main(List<String> arguments) {
-  test.guessMyNumber();
+  final result = test.isPrime(6);
+  print(result);
 }
