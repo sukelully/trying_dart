@@ -1,7 +1,6 @@
-import 'package:trying_dart/_11.dart' as test;
+import 'package:trying_dart/_12.dart' as test;
 
 void main(List<String> arguments) {
-  final a = [5, 10, 15, 20, 25];
-  final result = test.firstAndLast(a);
+  final result = test.fibonacci();
   print(result);
 }
