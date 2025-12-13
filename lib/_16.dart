@@ -61,7 +61,3 @@ String validateInput(String guess) {
   }
   return guess;
 }
-
-void main() {
-  cowsAndBulls();
-}
