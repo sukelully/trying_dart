@@ -1,7 +1,7 @@
 import 'dart:math';
 
 final options = <String>['rock', 'paper', 'scissors'];
-final _random = Random();
+final random = Random();
 
 final winsAgainst = <String, String>{
   'rock': 'scissors',
@@ -17,7 +17,7 @@ String playRPS(String playerInput) {
   final playerChoice = sanitiseInput(playerInput);
   if (!options.contains(playerChoice)) return 'Invalid choice';
 
-  int randomNum = _random.nextInt(3);
+  int randomNum = random.nextInt(3);
   final computerChoice = options[randomNum];
 
   if (playerChoice == computerChoice) return "It's a draw!";

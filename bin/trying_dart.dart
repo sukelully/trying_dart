@@ -1,6 +1,6 @@
-import 'package:trying_dart/_15.dart' as test;
+import 'package:trying_dart/_16.dart' as test;
 
 void main(List<String> arguments) {
-  final result = test.generatePassword(8);
+  final result = test.cowsAndBulls();
   print(result);
 }

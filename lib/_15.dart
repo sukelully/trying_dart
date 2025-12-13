@@ -1,6 +1,6 @@
 import 'dart:math';
 
-final _random = Random();
+final random = Random();
 final symbols = [
   '!',
   '"',
@@ -40,8 +40,8 @@ String generatePassword(int length) {
 
   String password = '';
   for (var i = 0; i < length; i++) {
-    int randChoice = _random.nextInt(3);
-    int randChar = _random.nextInt(charPool[randChoice].length);
+    int randChoice = random.nextInt(3);
+    int randChar = random.nextInt(charPool[randChoice].length);
     password += charPool[randChoice][randChar];
   }
   return password;

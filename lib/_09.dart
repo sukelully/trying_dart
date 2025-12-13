@@ -1,11 +1,11 @@
 import 'dart:math';
 import 'dart:io';
 
-final _random = Random();
+final random = Random();
 
 void guessMyNumber() {
   int count = 1;
-  int randNum = _random.nextInt(99) + 1;
+  int randNum = random.nextInt(99) + 1;
   print("I'm thinking of a number between 1 and 100. Take a guess!");
   String input = stdin.readLineSync() ?? "";
   int? guess = int.tryParse(input);
